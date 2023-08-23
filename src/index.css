@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap");
+
+/* body{
+  background-color: blue;
+  margin-left: 800px;
+} */
+
+div {
+  margin-left: 280px;
+  background-color: rgb(187, 187, 187);
+  /* width: 50%; */
+/* box-shadow: 5px 5px 5px 5px black; */
+
+}
+
+div img {
+  margin-left: -280px;
+  width: 250px;
+}
+
+.box {
+  background-color: rgb(34, 32, 32);
+  width: 250px;
+  height: 790px;
+  margin-left: -280px;
+  margin-top: 85px;
+}
+
+.self-name {  
+  color: white;
+  display: inline;
+  margin-top: 45px;
+  margin-left: 32px;
+  position: absolute;
+  font-size: 43px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.work {
+  color: white;
+  display: inline;
+  margin-top: 111px;
+  margin-left: 176px;
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sty-box {
+  width: 531px;
+  height: 134px;
+  background-color: rgb(34, 32, 32);
+  display: flex;
+  /* rotate: 90deg; */
+  margin-top: -820px;
+  margin-left: -30px;
+}
+
+.about {
+  font-size: 30px;
+  margin-left: 2px;
+  margin-top: 81px;
+  color: white;
+  position: relative;
+  top: 60px;
+  right: -22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-p {
+  width: 210px;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-top: 65px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+  font-size: 30px;
+  margin-left: 2px;
+  /* margin-top: 81px; */
+  color: white;
+  position: relative;
+  /* top: 60px; */
+  right: -22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phone-num {
+  width: 210px;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-top: 6px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phone-num  a{
+  text-decoration: none;
+  color: white;
+}
+
+.phone-num a:hover{
+  color: yellow;
+}
+
+.email {
+  width: 210px;
+  font-size: 16px;
+  margin-left: 24px;
+  /* margin-top: 65px; */
+  /* color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email a {
+  text-decoration: none;
+  color: white;
+}
+
+.email a:hover {
+  color: yellow;
+}
+
+.linkedin {
+  width: 210px;
+  font-size: 16px;
+  margin-left: 24px;
+  /* margin-top: 65px; */
+  /* color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin a:hover {
+  color: yellow;
+}
+
+.github {
+  width: 210px;
+  font-size: 16px;
+  margin-left: 24px;
+  /* margin-top: 65px; */
+  /* color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.github a {
+  text-decoration: none;
+  color: white;
+}
+
+.github a:hover {
+  color: yellow;
+}
+
+.education {
+  display: inline;
+  margin-top: 270px;
+  margin-left: 35px;
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr1 {
+  position: absolute;
+  top: 320px;
+  width: 450px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.edu {
+  display: flexbox;
+  /* background-color: cadetblue; */
+  margin-left: 9px;
+  margin-top: 94px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.certification{
+  display: inline;
+  margin-top: 270px;
+  margin-left: 8px;
+  /* position: absolute; */
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr2 {
+  width: 450px;
+  margin-left: -3px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.UL{
+  margin-left: -20px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.UL li{
+  margin-top: 15px;
+  
+}
+
+.skills{
+  font-size: 30px;
+  margin-left: 2px;
+  /* margin-top: 81px; */
+  color: white;
+  position: relative;
+  /* top: 60px; */
+  right: -22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.UL-Skill li{
+  margin-top: 7px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
